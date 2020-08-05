@@ -4,10 +4,10 @@ import { Component } from '@angular/core';
   selector: 'app-nav',
   template: `
     <nav class="menu">
-      <p class="menu-label">Menu</p>
+      <p class="menu-label">メニュー</p>
       <ul class="menu-list">
         <a routerLink="/products" routerLinkActive="router-link-active">
-          <span>Products!</span>
+          <span>Products</span>
         </a>
         <a routerLink="/about" routerLinkActive="router-link-active">
           <span>About</span>
