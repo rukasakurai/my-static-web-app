@@ -11,7 +11,7 @@ import { Product } from '../core';
   selector: 'app-product-list',
   template: `
     <div *ngIf="!products?.length">
-      Hello!
+      Hello!!
     </div>
     <ul class="list">
       <li
